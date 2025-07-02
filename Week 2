@@ -1,0 +1,32 @@
+# 🛡️ Cybersecurity Journey – Week 2 Summary (June 24 – July 1, 2025)
+
+## ✅ Progress Overview
+- Completed **Linux Fundamentals Part 1, 2, and 3** on TryHackMe
+- Practiced file operations, permissions, redirection, and terminal-based editing
+- Learned package management via APT and added external repositories
+- Covered cron jobs and basic task automation
+- Developed confidence navigating and modifying Linux systems via CLI
+
+## 🧪 Quizzes Completed
+- **Linux Fundamentals 1 & 2 Quiz:** 5/5
+- **Linux Fundamentals 2 & 3 Quiz:** 4/5
+
+## 🧠 Key Skills Gained
+- Navigating directories and inspecting file types
+- Creating, copying, moving, and deleting files
+- Understanding file permissions and modifying them (`chmod`)
+- Redirecting output with `>` and `>>`
+- Using `nano`, `man`, `ls -a`, `pwd`, `touch`, `cp`, and `rm`
+- Managing software using APT (`apt update`, `apt install`, sources.list)
+- Adding and trusting third-party repositories securely
+- Basic understanding of cron and scheduled automation
+
+## 🗒️ Reflections
+> Pushed through the Linux learning curve and gained command-line fluency.
+> Comfortable using real tools for future CTFs and basic pentesting.
+> Quizzes helped reinforce what I knew and reveal what I didn’t.
+
+## 🎯 Next Week’s Focus
+- Begin **Intro to Networking** or **Basic Pentesting** path
+- Apply Linux skills during CTFs and real-world scenarios
+- Document flags, commands, and logic used in each box or room

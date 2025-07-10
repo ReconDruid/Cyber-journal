@@ -1,0 +1,113 @@
+# 🛡️ Cybersecurity Journey – Week 3 (Days 15–21)
+
+## 📆 Week Overview: July 4 – July 10, 2025
+
+Focused on Windows fundamentals — Active Directory, Kerberos, NTLM, user/group management, and domain structure. Reinforced learning with daily quizzes and practical command usage.
+
+---
+
+## 📅 Day 15 – 4th July 2025  
+**Progress:** Search Skills Room (TryHackMe)  
+**Platform:** TryHackMe  
+**Focus:**  
+- Used advanced Windows search commands (`findstr`, `where`, `dir /s /b`)  
+- Learned about Alternate Data Streams (ADS)  
+- Practiced recursive file search and keyword filtering  
+**Quiz:** ✅ Completed — File system search logic
+
+---
+
+## 📅 Day 16 – 5th July 2025  
+**Progress:** Active Directory Basics (Start)  
+**Platform:** TryHackMe  
+**Focus:**  
+- Introduced to Active Directory (AD) concepts  
+- Explored object types: users, machines, groups  
+- Differentiated security principals and organizational units (OUs)  
+**Quiz:** ✅ Completed  
+**Score:** 6/10  
+✅ Q1, Q2, Q3, Q7, Q8, Q10  
+❌ Q4 (OUs), Q5 (Domain Admins), Q6 (OU membership), Q9 (default groups)
+
+---
+
+## 📅 Day 17 – 6th July 2025  
+**Progress:** User & Group Management in AD  
+**Platform:** TryHackMe  
+**Focus:**  
+- Created and deleted users in relevant OUs  
+- Delegated permission for password resets using Delegation Wizard  
+- Encountered PowerShell limitations without AD module  
+- Used `Set-ADAccountPassword`, `Set-ADUser` (tested with limited access)  
+**Quiz:** ✅ Completed — User and delegation logic  
+**Notes:** Learned how delegation requires proper OU permissions and group rights
+
+---
+
+## 📅 Day 18 – 7th July 2025  
+**Progress:** OU Design and GPO Basics  
+**Platform:** TryHackMe  
+**Focus:**  
+- Restructured machines into Workstations & Servers OUs  
+- Created OUs directly under `thm.local`  
+- Linked GPOs (Group Policy Objects) to different OUs  
+- Restriction GPO: Disabled Control Panel access  
+- Lock Screen GPO: 5-minute timeout applied to all machines  
+- Verified using `gpupdate /force`  
+- Reviewed GPO replication via `C:\Windows\SYSVOL\sysvol`
+
+---
+
+## 📅 Day 19 – 8th July 2025  
+**Progress:** Kerberos vs NetNTLM Authentication  
+**Platform:** TryHackMe  
+**Focus:**  
+- Kerberos flow: TGT, TGS, SPN explained  
+- TGT like a reusable "cookie" for access tickets  
+- NetNTLM: Challenge-response model for legacy support  
+- Explored how passwords aren’t transmitted in either method  
+**Quiz:** ✅ Completed  
+**Score:** 9/10  
+✅ Q1, Q2, Q3, Q5, Q6, Q7, Q8, Q9, Q10  
+❌ Q4 (TGT vs TGS misunderstanding)
+
+---
+
+## 📅 Day 20 – 9th July 2025  
+**Progress:** Multi-Domain Architecture (Trees & Forests)  
+**Platform:** TryHackMe  
+**Focus:**  
+- Explained trees (shared namespace: uk.thm.local, us.thm.local)  
+- Explained forests (different namespaces: thm.local + mht.local)  
+- Trust relationships: one-way vs two-way  
+- Enterprise Admins vs Domain Admins  
+- Domains in trees auto-generate two-way trust  
+**Quiz:** ✅ Completed  
+**Score:** 9/10  
+✅ Q1, Q2, Q3, Q4, Q5, Q6, Q8, Q9, Q10  
+❌ Q7 (Trust direction logic)
+
+---
+
+## 📅 Day 21 – 10th July 2025  
+**Progress:** Finished Active Directory Basics  
+**Platform:** TryHackMe  
+**Focus:**  
+- Finalised review of single vs multi-domain setups  
+- Explored future paths:  
+  - Active Directory Hardening  
+  - Compromising Active Directory  
+- Marked as ready to continue Cybersecurity 101 path  
+**Quiz:** N/A – Final review and planning
+
+---
+
+## 🔚 Summary for Week 3
+
+- Active Directory fundamentals mastered (users, machines, groups, OUs)
+- Learned Kerberos & NetNTLM authentication models
+- Practiced GPO creation, OU structuring, and delegation
+- Explored domain scaling (trees, forests, trust relationships)
+- Total Quizzes Completed: 4  
+  - **Quiz Avg Score:** ~8/10  
+- Ready for next phase: **Cybersecurity 101 completion ➜ AD Hardening**
